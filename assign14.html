@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form onsubmit="return validate()">
+<input id="nm" type="text"><br>
+<input type="submit">
+</form>
+
+<script>
+function validate() {
+  if (!nm.value) {
+    alert("Enter Name!");
+    return false;
+  }
+  return true;
+}
+</script>
+
+</body>
+</html>

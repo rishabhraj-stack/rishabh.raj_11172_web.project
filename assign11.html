@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input id="a" type="number">
+<input id="b" type="number">
+<button onclick="doCalc()">Calculate</button>
+<p id="out"></p>
+
+<script>
+function doCalc() {
+  let x = +a.value, y = +b.value;
+  out.textContent = "Sum: " + (x + y);
+}
+</script>
+
+</body>
+</html>

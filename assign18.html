@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="add()">Add</button>
+<button onclick="rem()">Remove</button>
+<div id="c"></div>
+
+<script>
+function add() {
+  let d=document.createElement("div");
+  d.textContent="Box";
+  c.appendChild(d);
+}
+function rem() {
+  c.removeChild(c.lastChild);
+}
+</script>
+
+</body>
+</html>
